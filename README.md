@@ -1,38 +1,51 @@
 # GitHub Copilotを実践で使う
-This is the repository for the LinkedIn Learning course GitHub Copilotを実践で使う. The full course is available from [LinkedIn Learning][lil-course-url].
+LinkedInラーニングの「GitHub Copilotを実践で使う」コース用のリポジトリです。このコースは [LinkedInラーニング][lil-course-url]で視聴できます。
 
 ![GitHub Copilotを実践で使う][lil-thumbnail-url] 
+Pythonの学習を進めるさいに「Pythonだとこんなことができるんだ」という単純な驚きから、「こういう仕組みだからこういうことができるんだ」という気づきに展開することができれば、学習が発見にあふれ、楽しくなるのではないでしょうか。このコースではPythonの特徴的な仕様にフォーカスを当ててPythonを学びます。Pythonの哲学である「The Zen of Python」の説明から始まり、イテラブルの操作でのall関数やany関数の使用、浅いコピーと深いコピーの違い、そしてラムダ式の使用を解説します。それに加えデコレータやキーワード付き引数、Pythonを学習するのに役立つ関数なども紹介します。このコースでいつもとは違った角度からPythonを学習してみましょう。
 
-GitHub CopilotはAIによるプログラミング支援を受けることができるサービスです。「Copilot」は副操縦士という意味で、プログラマーのコーディングをさまざまな形でサポートしてくれます。このコースではGitHub Copilotの実践的な使い方について解説します。GitHub Copilotの導入方法から２つのライセンスの違い、対話形式でサポートを受ける方法や、ダミーデータを生成する方法など、GitHub Copilotの活用方法を紹介します。このコースを受講することでGitHub Copilotの支援について理解し、コーディングを効率よく行えるようになるでしょう。
+## リポジトリの使い方
+このリポジトリには必要に応じてブランチが設けられています。ブランチのポップアップメニューを使用して、使用するブランチに切り替えたあとにコースを視聴してください。またURLに`「/tree/ブランチ名」`を追加することで、アクセスしたいブランチに移動することも可能です。
 
+## ブランチ
+ブランチはレッスンごとに作成されている場合があります。その場合はブランチ名に`「章番号_レッスン番号」`が付けられています。例えば`「02_03」`という名前のブランチは、2章の上から3番目のレッスン用のブランチとなります。
 
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+レッスン前と後のコードを格納しているブランチもあります。該当ブランチには「開始時」（beginning）を表す`「b」`と、「終了時」（ending）を表す`「e」` がブランチ名についています。`「b」`のブランチにはレッスン開始時点のコードが、`「e」`のブランチにはレッスン終了時点のコードが格納されています。また「main」のブランチにはコードの最終形が格納されています。
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
-
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+ファイルに変更を加えた後に、エクササイズファイルのブランチを次のブランチに切り替えたさい、次のようなメッセージが表示されることがあります。
 
     error: Your local changes to the following files would be overwritten by checkout:        [files]
     Please commit your changes or stash them before you switch branches.
     Aborting
 
-To resolve this issue:
+この問題を解決するには：
 	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+    次のコマンドで変更を加えます：git add .
+	次のコマンドで変更をコミットします：git commit -m "some message"
 
-インストラクター
+## インストール
+エクササイズファイルを使用するにはGitHub Codespaces上のVisual Studio Codeを利用するかPCにVisual Studio Codeをインストールする必要があります。一部Visual Studioを使用している動画を試す場合はVisual Studioのインストールが必要です。
 
-西村誠
+Visual Studio Code (https://azure.microsoft.com/ja-jp/products/visual-studio-cod)
+GitHub Codespacesを使用する場合は、ブランチを切り替えてCodespacesを使用してください。PC上のVisual Studio Codeを使用する場合はリポジトリをWindows PCにクローンしてください。
 
-プログラマー、Microsoft MVP
+1. Visual Studio Codeに以下の拡張機能をインストールします。
+	- GitHub Copilot
+    - Python
+    - C#
+2. Visual Studioを試す場合は以下の拡張機能をインストールしてください。
+    - GitHub Copilot
+    - GitHub Copilot Chat
 
+GitHub Copilotの使用にはGitHub Copilotが使用可能状態のGitHubアカウントが必要です。
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### インストラクター
 
-[lil-course-url]: https://www.linkedin.com/learning/practical-github-copilot-23091337
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQEuwrY928jGiA/learning-public-crop_675_1200/0/1711062897781?e=2147483647&v=beta&t=qHwJRHdLdfEmplr7ShA0qk_jH4qfRiWD-oB7T3p4Bnk
+**西村 誠**
 
+_プログラマー、Microsoft MVP_
+
+この講師の他のコースを視聴する：[LinkedInラーニング](https://www.linkedin.com/learning/instructors/13315091)
+
+[lil-course-url]: https://www.linkedin.com/learning/practical-github-copilot-23091337/
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQHVFPJU2mpfBg/learning-public-crop_675_1200/0/1711748191652?e=2147483647&v=beta&t=iTfY7O-cy484eQQtXoBNuaRI9D9qvF4-u_nIZq7-TGQ
