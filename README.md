@@ -39,6 +39,9 @@ GitHub Codespacesを使用する場合は、ブランチを切り替えてCodesp
 
 GitHub Copilotの使用にはGitHub Copilotが使用可能状態のGitHubアカウントが必要です。
 
+## GitHub Codespacesについて
+プログラミング言語を学ぶ最良の方法は、実際にそれを使用することです。それがこのコースがGitHub Codespacesと統合されている理由です。GitHub Codespacesは、あなたが普段使っているIDEのすべての機能を提供するクラウド上の手軽な開発環境です。ローカルマシンのセットアップも必要ありません。 GitHub Codespacesを使えば、あなたが職場で使っている他のツールを使用しながら、どのパソコンからでもいつでもプログラミングの実践的な練習ができます。
+
 ### インストラクター
 
 **西村 誠**
